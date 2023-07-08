@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap');
+* {
+    font-family: 'Klee One', cursive;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+body{
+  background: radial-gradient(circle at 50.4% 50.5%, rgb(251, 32, 86) 0%, rgb(135, 2, 35) 90%);
+}
+.calc{
+  background: #430f58; 
+  width: 330px;
+   height: 479px;
+   border-radius: 8px;
+}
+.btn-warning{
+  width: 70px;
+  height: 80px; 
+  margin-top:10px; 
+}
+.tab{
+  margin-left: 0px;
+}
+.inp{
+ margin-top: 10px;
+  width: 219px;
+  height: 95px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+

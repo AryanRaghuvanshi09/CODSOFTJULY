@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap');
+* {
+    font-family: 'Klee One', cursive;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+
+body {
+  background: linear-gradient(111.1deg, rgb(0, 40, 70) -4.8%, rgb(255, 115, 115) 82.7%, rgb(255, 175, 123) 97.2%);
+  margin: 0;
+  /*background-image: url("image5.png");*/
+  background-size: cover;
+ color: white;
+  
+}
+h1{
+  margin-top: 0px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+h2 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  margin-right: 30px;
+}
+  
+a {
+  text-decoration:none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+.logo {
+  margin-top: 0px;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #666;
+  display: inline-block;
+}
+
+.logo i {
+  padding-right: 2rem;
+  color: black;
+}
+
+.order {
+  text-shadow: -1px -1px 0 yellow, 1px -1px 0 yellow, -1px 1px 0 yellow, 1px 1px yellow;
+}
+
+footer{
+  text-align: center;
+  
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  color: black;
+  height: 75px;
+  padding: 1em;
+  font-size: 25px;
+}
+
+
+
+.menu li:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+}
+
+.menu>li {
+  margin: 0 1rem;
+  overflow: hidden;
+}
+
+
+.menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: black;
+  position: absolute;
+  height: 6px;
+  width: 32px;
+  border-radius: 3px;
+  color: white;
+}
+
+.menu-button::before {
+  content: "";
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: "";
+  margin-top: 8px;
+}
+    
+    #menu-toggle:checked+.menu-button-container .menu-button::before {
+        margin-top: 0px;
+        transform: rotate(45deg);
+    }
+    
+    #menu-toggle:checked+.menu-button-container .menu-button {
+        background: rgba(255, 255, 255, 0);
+    }
+    
+    #menu-toggle:checked+.menu-button-container .menu-button::after {
+        margin-top: 0px;
+        transform: rotate(-45deg);
+    }
+    

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap');
+* {
+    font-family: 'Klee One', cursive;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+
+body{
+  background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+      color: white;
+      
+    
+}
+h2 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  margin-right: 30px;
+}
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+div.lop{
+  justify-content: space-between;
+}
+.aryan{
+  margin-top: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    color: black;
+    height: 65px;
+    padding: 1em;
+    font-size: 25px;
+}
+.pic{
+    display: inline;
+    margin-left: 0px;
+    margin-top: 10px;
+   border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: blanchedalmond;
+    
+    width:430px;
+    height: 450px;
+}
+.menu li:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+  }
+  .menu>li {
+    margin: 0 1rem;
+    overflow: hidden;
+  }
+  .git{
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+  }
+  .linked{
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+  }
+  .insta{
+    margin-top: 10px;
+    width: 100px;
+    height: 55px;
+  }
+ 
+  .combo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  }
+ div.sk{
+  margin-left: 60px;
+  margin-top: 60px;
+ }
+ 
